@@ -1,0 +1,21 @@
+.otchet_list *
+{
+    margin:0;
+    padding:0;
+}
+
+.otchet_list {
+    
+}
+
+.otchet_list .title {
+    float:left;
+}
+
+.otchet_list .info {
+    float:right;
+}
+
+.otchet_list .clear {
+    clear:both;
+}

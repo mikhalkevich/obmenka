@@ -1,0 +1,33 @@
+.small_pic_user{
+   float:right;
+   margin-left:10px;
+   box-shadow: 0 0 9px #ccc;
+}
+.block_user {
+   margin-bottom:10px;
+   font-size:11px;
+}
+.top_message {
+   padding:8px;
+   border-radius: 5px;
+   border:1px solid #AAAAAA;
+   border-top:3px #BBB solid;
+   margin:5px;
+   background:#fff;
+   max-height:130px;
+   overflow: auto;
+}
+.inner_msg {
+   border-bottom:dotted 1px #BBB; 
+}
+.zdet {
+   background:#E0E6FC;
+}
+.list-off-skills {
+    margin-left:120px;
+    padding: 6px;
+    float: right;
+}
+.noneborder {
+    border-right: none;
+}

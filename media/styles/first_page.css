@@ -1,0 +1,154 @@
+body{
+    background-color: #b5a789;
+    font-family: "Time New Roman", Georgia, Times, serif;
+    font-size: small;
+    margin: 0px;
+}
+#logo{
+   background-color: #efe5d0;
+   margin: 10px;
+   height: 158px;
+}
+#regisrt{
+    position: absolute;
+    top:120px;
+    right:50px;
+    z-index: 99;
+    height: 158px;
+    padding-left: 50px;
+    font-size: 130%;
+    font-weight:bold;
+      
+}
+#regisrt a{
+    margin-left: 15px;
+}
+#header{
+   background-color: #efe5d0;
+    margin: 10px;
+    height: 60px;
+    clear: both;
+    
+}
+
+.headerin, .account_menu{
+    
+    font-size: 140%;
+    color: #954b4b ;
+    
+}
+.account_menu li{
+   list-style-type: none;
+}
+#header li{
+    margin-top: 20px;
+    margin-left: 12px;
+    display: inline-block;
+}
+
+#main{
+    background: #efe5d0 url('../images/background.gif') top left;
+    font-size: 105%;
+    padding: 15px;
+    margin: 0px 350px 10px 300px;/* ������ ���������� ���� 330 news, 230 ���� ���� katalog*/
+
+    /*    width: 420px;
+        float: left;*/
+}
+
+
+.image{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.image p{
+    font-size: 120%;
+    color:#954b4b;  
+}
+.image img
+{
+    width: 150px;
+}
+#news{
+    background: #efe5d0 url('../images/background.gif') bottom right;
+    font-size: 105%;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    /*    position: absolute;
+        top:128px;
+        right:0px;*/
+    width: 300px;
+    float: right;
+}
+
+
+
+#katalog
+{ background: #efe5d0 url('../images/background.gif') bottom right;
+    font-size: 105%;
+    padding: 15px;
+    margin: 0px 10px 10px 10px;
+    /*    position: absolute;
+        top:128px;
+        right:0px;*/
+    width: 250px;
+    float: left;
+}
+#catal{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+.catalog{
+    margin: 8px;
+    font-size: 120%;   
+    
+}
+
+
+.button
+{
+    font-family: "Time New Roman", Georgia, Times, serif;
+    background: #b5a789; 
+    color: #954b4b;
+    font-size: 120%;
+    
+}
+  
+#footer{
+    background-color: #efe5d0;
+    color: #954b4b;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-size:90%;
+/*    clear: right; ��������, ���������� �� ������ ���������� ���������� ��������
+                     ������ �� ������*/
+    clear: both;
+
+}
+h1,h2{
+    font-size: 150%;
+    color:#954b4b;     
+}
+label{
+    color:#954b4b;   
+    font-size: 100%;
+}
+
+a:link{
+    color:#b76666;
+    text-decoration: none;
+    border-bottom: thin dotted #b76666;
+}
+a:visited{
+    color: #675c47;
+    text-decoration: none;
+    border-bottom: thin dotted #675c47;
+}
+a:hover
+{
+    border-bottom: thin solid #954b4b;
+}
+
