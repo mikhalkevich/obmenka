@@ -250,7 +250,7 @@ public function action_msg(){
 	))->bind('errors', $errors);
 	$this->template->block_center = array($content, $user_for);
 }
-
+asdf
 public function action_addFriend(){
 	$friend_id = $this->request->param('id');
         if($friend_id){
