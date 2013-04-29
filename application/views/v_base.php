@@ -49,6 +49,7 @@
                            <i class="icon-shopping-cart"></i> Товары 
                           <b class="caret"></b></a>
                       <ul aria-labelledby="drop2" role="menu" class="dropdown-menu">
+                        <li role="presentation"><?=HTML::anchor('tovars/need/0', 'Нужные товары')?></li>
                         <li role="presentation"><?=HTML::anchor('tovars/main/0/shop', 'Интернет-агазин')?></li>
                         <li role="presentation"><?=HTML::anchor('tovars/subcat/all', 'Товары пользователей')?></li>
                         <li role="presentation"><?=HTML::anchor('tovars/subcat/gift', 'Даром')?></li>

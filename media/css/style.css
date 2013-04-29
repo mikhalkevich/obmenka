@@ -124,7 +124,11 @@ a:hover {
 .block_center {
  padding:4px;
 }
-
+.block_need {
+ float:right;
+ width:200px;
+ font-size:11px;
+}
 .block_left_top {
  font-weight:bold;
  text-align:left
