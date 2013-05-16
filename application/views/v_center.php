@@ -10,7 +10,12 @@
         $picture = 'media/uploads/no_photo.png';
         }
        ?>
-<figure class="last_obmen">
+ <?if($prod_obmen->gift == 'yes'):?>
+    <?$gift = "gift"?>
+ <?else:?>
+    <?$gift = ""?>    
+ <?endif;?>
+<figure class="last_obmen <?=$gift;?>">
      <? $wont=HTML::anchor('tovars/subcat/'.$prod_obmen->id.'/one', 
 	        HTML::image($picture, array(
 			  'width'=>'150px', )));?>

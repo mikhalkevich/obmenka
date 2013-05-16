@@ -477,6 +477,7 @@ font-size:11px;
 
 .fro_hotelka_darom {
  width:120px;
+ border: none;
 }
 #second{
 display:none;
@@ -648,6 +649,9 @@ figure.razdels figcaption a:hover {
     text-align: center;
     width: 155px;
     font-size:12px;
+}
+.gift {
+    background-color: gold;
 }
 .prod {
     width:200px;

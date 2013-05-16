@@ -23,7 +23,7 @@ class Controller_Thema_Userthema extends Controller_Auth_Account {
         }
        if (isset($_POST['submit'])) {
            $data = Arr::extract($_POST, array('name', 'statia', 'name_image', 'video'));
-           $data['name'] = @ereg_replace("script", "<sapn>script</span>", $data['name']);
+           $data['name'] = @ereg_replace("script", "<span>script</span>", $data['name']);
            $data['name_image'] = @ereg_replace("script", "<sapn>script</span>", $data['name_image']);
            
                         $im_db = ORM::factory('thema');
