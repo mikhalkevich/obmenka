@@ -430,6 +430,8 @@ mmodules/userguide/guide/userguide
 mmodules/userguide/i18n
 mmodules/userguide/media/guide/css
 mmodules/userguide/media/guide/js
+rnbproject
+rnbproject/private
 msystem/classes
 msystem/classes/config
 msystem/classes/controller
