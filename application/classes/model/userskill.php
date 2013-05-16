@@ -9,5 +9,7 @@ class Model_Userskill extends ORM{
             'model'=>'user',
             'foreign_key'=>'user_id',
         ),
-    ); 
+    );
+    
+    protected $_has_many = array();
 }
