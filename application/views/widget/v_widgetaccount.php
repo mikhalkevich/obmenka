@@ -6,7 +6,11 @@
  else {
  $picsmall = "media/img/user.png";
  }
-?> 
+?>
+	<ul class="right_menu">
+	
+	  <li>
+              
     <ul class="right_menu">
        <li>
     <div class="btn-group mydropdown">   
@@ -20,7 +24,7 @@
 		 <li><?=HTML::anchor('tovars/managment/my', 'Управление товаром', array('class'=>'drop_menu_tovar'))?></li>
 		</ul>
     </div>
-<?=HTML::anchor('account/cabinet/0', '<i class="icon-shopping-cart"></i> Товары', array('class'=>'btn btn-success'))?></li>  
+<?=HTML::anchor('account/cabinet', '<i class="icon-shopping-cart icon-white"></i> Товары', array('class'=>'btn btn-success'))?></li>  
        <li>
     <div class="btn-group mydropdown">   
     <button class="btn btn-small btn-primary dropdown-toggle" data-toggle="dropdown">
@@ -31,7 +35,8 @@
 			<li><?=HTML::anchor('services/services/need', 'Требуется', array('class'=>'drop_menu_yslygi'))?></li>
 		</ul>
     </div>
-<?=HTML::anchor('services/services', '<i class="icon-shopping-cart"></i> Услуги', array('class'=>'btn btn-primary'))?></li>   
+<?=HTML::anchor('services/services', '<i class="icon-wrench icon-white"></i> Услуги', array('class'=>'btn btn-primary'))?></li> 
+       <li><?=HTML::anchor('books/mybook/0', '<i class="icon-book icon-white"></i> Мои книги', array('class'=>'btn btn-warning'))?></li> 
        <li><?=HTML::anchor('account/pismo/0', '<i class="icon-envelope"></i> Моя переписка', array('class'=>'btn'))?></li>  
        <li><?=HTML::anchor('code/usercode/0', '<i class="icon-file"></i> Мой код', array('class'=>'btn'))?></li>
        <li><?=HTML::anchor('account/friends/0', '<i class="icon-user"></i> Мои друзья', array('class'=>'btn'))?></li>
