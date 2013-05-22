@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 /*
- * Личный кабинет
+ * Личный кабинетФЫВА
  */
 class Controller_Books_Findpicture extends Controller_Auth_Account {
 
