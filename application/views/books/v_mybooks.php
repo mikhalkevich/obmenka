@@ -53,14 +53,6 @@
            </td>
        </tr>
        <tr>
-           <td class="first" valign="top">
-               Обложка(фото)
-           </td>
-           <td>
-               <?=form::file('images')?>
-           </td>
-       </tr>
-       <tr>
            <td>
                &nbsp;
            </td>

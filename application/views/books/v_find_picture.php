@@ -16,5 +16,4 @@
 <p align="center"><?=HTML::anchor('#', $picture)?></p>
 <?endforeach?>
 </div>
-фыва
 </div>
