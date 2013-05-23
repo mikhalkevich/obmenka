@@ -81,7 +81,7 @@ class Controller_Tovars_Sell extends Controller_Index {
                           ->offset($pagination->offset)
 			  ->order_by('name', 'DESC')
 	                  ->find_all();
-        $this->template->site_name = "<b>Демографически Обусловленные</b> Товары на продажу";
+        $this->template->site_name = "Демографически Обусловленные Товары на продажу";
 	$forma = View::factory('tovars/v_tovars_forma');
         if ($this->auth->logged_in()) {
          $user_id = $this->user->id;
