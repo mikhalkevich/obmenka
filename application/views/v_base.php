@@ -37,7 +37,7 @@
                           <i class="icon-wrench"></i> Услуги 
                          <b class="caret"></b></a>
                       <ul aria-labelledby="drop1" role="menu" class="dropdown-menu">
-                          <li role="presentation"><?= HTML::anchor('services/all', 'Все услуги')?></li>
+                          <li role="presentation"><?= HTML::anchor('services/all/0', 'Все услуги')?></li>
                         <li role="presentation"><a href="#anotherAction" tabindex="-1" role="menuitem">Предложения</a></li>
                         <li role="presentation"><a href="#" tabindex="-1" role="menuitem">Услуга за услугу</a></li>
                         <li class="divider" role="presentation"></li>

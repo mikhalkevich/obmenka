@@ -99,15 +99,15 @@ Kohana::$config->attach(new Config_File);
  */
 Kohana::modules(array(
 	  'auth'       => MODPATH.'auth',       // Basic authentication
-	// 'cache'      => MODPATH.'cache',      // Caching with multiple backends
-	// 'codebench'  => MODPATH.'codebench',  // Benchmarking tool
+	// 'cache'     => MODPATH.'cache',      // Caching with multiple backends
+	// 'codebench' => MODPATH.'codebench',  // Benchmarking tool
 	  'database'   => MODPATH.'database',   // Database access
-	 'image'      => MODPATH.'image',      // Image manipulation
+	 'image'       => MODPATH.'image',      // Image manipulation
 	  'orm'        => MODPATH.'orm',        // Object Relationship Mapping
-	  'orm-mptt'        => MODPATH.'orm-mptt',        //  
-	// 'unittest'   => MODPATH.'unittest',   // Unit testing
+	  'orm-mptt'   => MODPATH.'orm-mptt',        //  
+	// 'unittest'  => MODPATH.'unittest',   // Unit testing
 	  'userguide'  => MODPATH.'userguide',  // User guide and API documentation
-	  'pagination' => MODPATH.'pagination',
+	  'pagination' => MODPATH.'pagination', //pagination
 	));
 
 /**

@@ -12,4 +12,5 @@
                  'align'=>'left'));?>
     <hr style="clear:both"/>
     <?endforeach;?>
+    <?=$pagination?>
 </div>

@@ -264,6 +264,7 @@ mapplication/classes/controller/adminka
 mapplication/classes/controller/auth
 mapplication/classes/controller/country
 mapplication/classes/controller/main
+mapplication/classes/controller/tovars
 mapplication/classes/controller/widgets
 mapplication/classes/model
 mapplication/classes/phpQuery
